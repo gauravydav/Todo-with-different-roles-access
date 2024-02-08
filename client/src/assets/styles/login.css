@@ -1,0 +1,18 @@
+.error-slide {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: #ff0000;
+    color: #ffffff; 
+    padding: 1rem;
+    border-top-left-radius: 8px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.slide-in {
+    display: block;
+    opacity: 1;
+    transform: translateX(0);
+}
